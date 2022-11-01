@@ -23,7 +23,7 @@ function incrementBalance(x) {
   return x;
 }
 
-function discrementBalance(x) {
+function decrementBalance(x) {
   x--;
   return x;
 }
@@ -33,4 +33,4 @@ console.log(decreaseBalance(3000, 700));
 console.log(divideBalanceByAccounts(3000, 2));
 console.log(getRestAfterDivision(7000, 3));
 console.log(incrementBalance(5));
-console.log(discrementBalance(100));
+console.log(decrementBalance(100));
